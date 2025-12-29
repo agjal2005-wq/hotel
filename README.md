@@ -16,12 +16,7 @@ https://agjal2005-wq.github.io/hotel/
 - HTML5
 - CSS3
 
-## 📂 Project Structure
+## Author
+Bedagranee Ghosh
 
-index.html
-style.css
-business.png
-hotel.png
-luxury.png
-resort.png
 
