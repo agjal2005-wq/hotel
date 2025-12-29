@@ -5,11 +5,13 @@
     background-color: #071A28;
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 
 
 .landingPage{
-    background-image: url("https://cdn.codechef.com/download/Contest+images/ANTEST/landing+page.jpg");
+    background-image: url("hotel.png");
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -25,23 +27,39 @@
 }
 
 .quote{
-    text-align: right;
-    font-size: 60px;
-    font-family:cursive;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: 350;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 20px; 
     color: white;
     background-color: transparent;
+    font-style: italic;
+    text-shadow: 0px 0px 5px white;
+    
 }
 
 .headingPara{
+    
     color: white;
     background-color:transparent;
     padding-top: 30px;
-    text-align: right;
+    text-align: center;
+    padding-top: -10px;
+    padding-bottom: 20px;
     margin-left: 30%;
     padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 3px white;
+    background-color: rgba(0, 0, 0, 0.405);
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 3px;
 }
 
 
@@ -49,6 +67,8 @@
     padding-top: 100px;
     padding-bottom: 30px;
     text-align: center;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -89,18 +109,44 @@ ul {
     text-decoration: underline;
     padding-top: 30px;
     padding-bottom: 50px;
+    border: 2px solid white;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20%;
+    background-color: aliceblue;
+    color: #06053e;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px rgb(162, 198, 234);
+   
 }
 
-
+.booknow:hover{
+    background-color: #f70303;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px #f70303, 0px 0px 20px #f70303, 0px 0px 30px #f70303;
+}
 footer{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     
-    background-color: #4F2D18;
+    background-color: #fdfdfd;
 }
 #footpara{
-    color: white ;
+    color: rgb(0, 0, 0) ;
     background-color: transparent;
     padding-right: 50px;
+    font-weight: bold;
+}
+
+
+
+.heading{
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 0px 0px 3px white,0px 0px 5px #000000, 0px 0px 4px rgb(23, 8, 240);
+    
 }
