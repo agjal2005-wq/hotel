@@ -117,7 +117,7 @@ ul.topnav li a{
 
 
 ul.topnav li:hover{
-    background-color: #f70303;
+    background-color: rgba(0, 0, 0, 0.521);
     color: white;
     transition: 0.5s;
     border: 5px solid white;
